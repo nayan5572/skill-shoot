@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Poppins:["Poppins", 'sans-serif']
+      },
+      borderRadius: {
+        'custom-10-25': '10px 25px 25px 22px',
+        'custom-12-25': '25px 22px 10px 25px',
+      },
+    },
   },
   plugins: [
     require('daisyui'),

@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">Testimonial</Link></li>
     </>
     return (
-        <div className="bg-[#245D51]">
+        <div className="bg-[#245D51] font-Poppins">
             <section className="max-w-screen-xl mx-auto">
                 <div className="navbar">
                     <div className="navbar-start">

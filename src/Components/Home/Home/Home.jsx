@@ -1,5 +1,7 @@
 import Banner from "../Banner/Banner";
+import NewYear from "../NewYear/NewYear";
 import TrustedMore from "../TrustedMore/TrustedMore";
+import WhyDoWe from "../WhyDoWe/WhyDoWe";
 
 
 
@@ -9,6 +11,8 @@ const Home = () => {
         <div className="">
             <Banner></Banner>
             <TrustedMore></TrustedMore>
+            <NewYear></NewYear>
+            <WhyDoWe></WhyDoWe>
         </div>
     );
 };
