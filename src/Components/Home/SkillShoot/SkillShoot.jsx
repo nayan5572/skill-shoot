@@ -1,6 +1,10 @@
 import { FaCalendarDays, FaPencil, FaRegCirclePlay } from 'react-icons/fa6';
 import realman from '../../../assets/image/skillShoot-big.png';
 import img2 from '../../../assets/image/carddddd.jpeg';
+import user1 from '../../../assets/image/skill-user.png';
+import user2 from '../../../assets/image/skill-user2.png';
+import user3 from '../../../assets/image/skill-user3.png';
+import user4 from '../../../assets/image/skill-user4.png';
 
 
 
@@ -54,6 +58,48 @@ const SkillShoot = () => {
                         </p>
                         <p className='text-[22px] leading-[35px] font-Poppins text-[#808080] pb-8 pt-[35px]'>we have been around since 2019 with currently 100+ updated materials and 15K members who have joined.</p>
                     </article>
+                    <div className='grid grid-cols-2 gap-6'>
+                        <div>
+                            <div className='flex items-center'>
+                                <div>
+                                    <img className='w-[60px] h-[60px] rounded-full p-2' src={user1} alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>15K People Join</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex items-center'>
+                                <div>
+                                    <img className='w-[60px] h-[60px] rounded-full p-2' src={user2} alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>Trusted Mentor</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex items-center'>
+                                <div>
+                                    <img className='w-[60px] h-[60px] rounded-full p-2' src={user3} alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>30+ Free Videos</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex items-center'>
+                                <div>
+                                    <img className='w-[60px] h-[60px] rounded-full p-2' src={user4} alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>100+ Premium Videos</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
