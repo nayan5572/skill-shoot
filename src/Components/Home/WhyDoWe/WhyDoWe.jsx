@@ -13,7 +13,7 @@ const WhyDoWe = () => {
             <section className='grid grid-cols-1 lg:grid-cols-2 gap-8 justify-between'>
                 <div className="lg:w-[80%] text-center lg:text-left">
                     <h1 className="text-[18px] lg:text-4xl font-Poppins leading-[27px] lg:leading-[54px] font-semibold">Why do we <span className="text-[#CB8461]">exist?</span></h1>
-                    <p className="text-[#808080] text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] font-Poppins lg:pr-[133px] mt-5 px-10">Because we know that many people or companies have the same problem when it comes to how difficult it is to improve their skills</p>
+                    <p className="text-[#808080] text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] font-Poppins lg:pr-[133px] mt-5 px-10 lg:px-0">Because we know that many people or companies have the same problem when it comes to how difficult it is to improve their skills</p>
                     <div className="flex items-center justify-center lg:justify-start mt-[20px]">
                         <div>
                             <img className='w-[71px] h-[71px] rounded-full p-2' src={smallMan} alt="" />
