@@ -1,8 +1,8 @@
 import smallMan from '../../../assets/image/smallMan.jpeg';
-import icon1 from '../../../assets/image/Group 542.png'
-import icon2 from '../../../assets/image/Group 554.png'
-import icon3 from '../../../assets/image/Group 555.png'
-import icon4 from '../../../assets/image/Group 556.png'
+import icon1 from '../../../assets/image/Group 542.png';
+import icon2 from '../../../assets/image/Group 554.png';
+import icon3 from '../../../assets/image/Group 555.png';
+import icon4 from '../../../assets/image/Group 556.png';
 
 
 

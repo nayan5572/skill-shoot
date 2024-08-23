@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import Caroussel from "../Carousel/Caroussel";
 import NewYear from "../NewYear/NewYear";
+import SkillShoot from "../SkillShoot/SkillShoot";
 import TrustedMore from "../TrustedMore/TrustedMore";
 import WhyDoWe from "../WhyDoWe/WhyDoWe";
 
@@ -15,6 +16,7 @@ const Home = () => {
             <NewYear></NewYear>
             <WhyDoWe></WhyDoWe>
             <Caroussel></Caroussel>
+            <SkillShoot></SkillShoot>
         </div>
     );
 };
