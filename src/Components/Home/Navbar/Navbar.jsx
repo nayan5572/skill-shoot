@@ -1,4 +1,9 @@
+import { TfiLayoutGrid2 } from "react-icons/tfi";
 import { Link } from "react-router-dom";
+
+
+
+
 
 const Navbar = () => {
     const navOptions = <>
@@ -15,18 +20,7 @@ const Navbar = () => {
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-5 w-5"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor">
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M4 6h16M4 12h8m-8 6h16" />
-                                </svg>
+                                <TfiLayoutGrid2 className="text-white w-[22px] h-[22px]" />
                             </div>
                             <ul tabIndex={0} className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
                                 {navOptions}
@@ -39,7 +33,7 @@ const Navbar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <div className="navbar-end">
+                    <div className="navbar-end hidden lg:block">
                         <a className="btn bg-[#245D51] border-0 mr-1 text-[18px] text-white hover:bg-[#245D51]">Login</a>
                         <a className="btn w-[160px] h-[49px] rounded-[8px] bg-[#CB8461] border-0 text-[18px] text-white hover:bg-[#245D51]">Register</a>
                     </div>

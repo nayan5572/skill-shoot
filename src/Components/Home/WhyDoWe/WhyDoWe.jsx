@@ -11,10 +11,10 @@ const WhyDoWe = () => {
     return (
         <div className="pt-[80px] max-w-screen-xl mx-auto">
             <section className='grid grid-cols-1 lg:grid-cols-2 gap-8 justify-between'>
-                <div className="w-[80%] text-center lg:text-left">
+                <div className="lg:w-[80%] text-center lg:text-left">
                     <h1 className="text-[18px] lg:text-4xl font-Poppins leading-[27px] lg:leading-[54px] font-semibold">Why do we <span className="text-[#CB8461]">exist?</span></h1>
-                    <p className="text-[#808080] text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] font-Poppins lg:pr-[133px] mt-5">Because we know that many people or companies have the same problem when it comes to how difficult it is to improve their skills</p>
-                    <div className="flex mt-[20px]">
+                    <p className="text-[#808080] text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] font-Poppins lg:pr-[133px] mt-5 px-10">Because we know that many people or companies have the same problem when it comes to how difficult it is to improve their skills</p>
+                    <div className="flex items-center justify-center lg:justify-start mt-[20px]">
                         <div>
                             <img className='w-[71px] h-[71px] rounded-full p-2' src={smallMan} alt="" />
                         </div>
@@ -23,7 +23,7 @@ const WhyDoWe = () => {
                             <p className='text-[12px] font-Poppins text-[#808080]'>CEO Skill Shoot</p>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2 mt-[35px] mr-20 border-t-2 pt-11'>
+                    <div className='grid grid-cols-2 mt-[35px] lg:mr-20 border-t-2 pt-11'>
                         <div className=''>
                             <h2 className='text-4xl font-bold font-Poppins leading-[54px] text-[#2C2C2C]'>100+</h2>
                             <p className='text-[#808080] text-[12px] font-Poppins leading-7'>Updated Material</p>
@@ -34,26 +34,26 @@ const WhyDoWe = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 font-Poppins'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 font-Poppins px-10 lg:px-0'>
                     <div className='pb-[50px]'>
-                        <img src={icon1} alt="" />
-                        <h4 className='text-[#245D51] text-2xl font-semibold leading-[36px] font-Poppins mt-[30px]'>Material Limitations</h4>
-                        <p className='text-[#808080] text-[16px] pr-[60px] leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img className='mx-auto lg:ml-0' src={icon1} alt="" />
+                        <h4 className='text-[#245D51] text-2xl text-center lg:text-left font-semibold leading-[36px] font-Poppins mt-[30px]'>Material Limitations</h4>
+                        <p className='text-[#808080] text-[16px] lg:pr-[60px] text-center lg:text-left leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className='pb-[50px]'>
-                    <img src={icon2} alt="" />
-                        <h4 className='text-[#245D51] text-2xl font-semibold leading-[36px] font-Poppins mt-[30px]'>Unprofessional Mentor</h4>
-                        <p className='text-[#808080] text-[16px] pr-[60px] leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <img className='mx-auto lg:ml-0' src={icon2} alt="" />
+                        <h4 className='text-[#245D51] text-2xl text-center lg:text-left font-semibold leading-[36px] font-Poppins mt-[30px]'>Unprofessional Mentor</h4>
+                        <p className='text-[#808080] text-[16px] lg:pr-[60px] text-center lg:text-left leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div>
-                    <img src={icon3} alt="" />
-                        <h4 className='text-[#245D51] text-2xl font-semibold leading-[36px] font-Poppins mt-[30px]'>Video Quality</h4>
-                        <p className='text-[#808080] text-[16px] pr-[60px] leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <img className='mx-auto lg:ml-0' src={icon3} alt="" />
+                        <h4 className='text-[#245D51] text-2xl text-center lg:text-left font-semibold leading-[36px] font-Poppins mt-[30px]'>Video Quality</h4>
+                        <p className='text-[#808080] text-[16px] lg:pr-[60px] text-center lg:text-left leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div>
-                    <img src={icon4} alt="" />
-                        <h4 className='text-[#245D51] text-2xl font-semibold leading-[36px] font-Poppins mt-[30px]'>High Price</h4>
-                        <p className='text-[#808080] text-[16px] pr-[60px] leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <img className='mx-auto lg:ml-0' src={icon4} alt="" />
+                        <h4 className='text-[#245D51] text-2xl text-center lg:text-left font-semibold leading-[36px] font-Poppins mt-[30px]'>High Price</h4>
+                        <p className='text-[#808080] text-[16px] lg:pr-[60px] text-center lg:text-left leading-[35px] font-Poppins mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
             </section>

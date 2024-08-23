@@ -11,7 +11,7 @@ const NewYear = () => {
     return (
         <div className="relative max-w-screen-xl mx-auto pt-7 lg:pt-[200px] font-Poppins">
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center justify-center bg-[#F2E7DB] rounded-[10px]'>
-                <div className="p-[50px] text-center">
+                <div className="p-[50px] text-center lg:text-left">
                     <h1 className='text-[18px] lg:text-4xl font-semibold leading-[27px] lg:leading-[54px] text-[#2C2C2C] font-Poppins'>Happy <span className='text-[#CB8461]'>Chinese New Year</span>, 20% discount for you today</h1>
                     <button className='mt-5 bg-[#245D51] py-4 px-6 text-white rounded-[4px]'>Subscribe Course</button>
                 </div>
