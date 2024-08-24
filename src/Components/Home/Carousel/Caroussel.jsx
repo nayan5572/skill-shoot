@@ -40,7 +40,7 @@ const Caroussel = ({ deviceType }) => { // Accept deviceType as a prop
     };
 
     return (
-        <div className='bg-[#245D51] font-Poppins'>
+        <div className='bg-[#245D51] font-Poppins mt-12'>
             <div className='max-w-screen-xl mx-auto'>
                 <div className='flex items-center justify-between w-4/5 mx-auto'>
                     <img className='mt-5' src={icon1} alt="" />
