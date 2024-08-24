@@ -14,7 +14,7 @@ const Improve = () => {
                         <img className='' src={improve1} alt="" />
                     </div>
                    <div>
-                    <h2 className="text-4xl text-[#2C2C2C] font-semibold leading-[54px] font-Poppins"><span className="text-[#CB8461]">Improve</span> your skills, and reach <br /> your career as soon as possible</h2>
+                    <h2 className="text-4xl text-[#2C2C2C] font-semibold leading-[54px] font-Poppins pl-10"><span className="text-[#CB8461]">Improve</span> your skills, and reach <br /> your career as soon as possible</h2>
                    </div>
                    <div className=" flex items-center">
                     <button className="bg-[#CB8461] text-white text-[20px] font-bold w-36 h-14 rounded-[4px] py-[15px] px-[25px] font-Poppins mr-[16px]">Join Now</button>
