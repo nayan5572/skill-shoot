@@ -5,6 +5,7 @@ import NewYear from "../NewYear/NewYear";
 import SkillShoot from "../SkillShoot/SkillShoot";
 import Subscribe from "../Subscribe/Subscribe";
 import TrustedMore from "../TrustedMore/TrustedMore";
+import WhatDo from "../WhatDo/WhatDo";
 import WhyDoWe from "../WhyDoWe/WhyDoWe";
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             <SkillShoot></SkillShoot>
             <Improve></Improve>
             <Subscribe></Subscribe>
+            <WhatDo></WhatDo>
         </div>
     );
 };

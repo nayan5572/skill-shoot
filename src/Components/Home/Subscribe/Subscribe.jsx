@@ -11,11 +11,11 @@ const Subscribe = () => {
             <div className="max-w-screen-xl mx-auto">
                 <div>
                     <article className="text-center">
-                        <h2 className="text-4xl font-semibold font-Poppins leading-[54px]"><span className="text-[#CB8461]">Subscribe</span> with us now</h2>
-                        <p className="text-[16px] leading-[35px] text-[#808080] font-Poppins">by subscribing now you will be able to access the material easily <br /> and cheaply, so you will be very efficient and benefit</p>
+                        <h2 className="text-[18px] lg:text-4xl font-semibold font-Poppins leading-[27px] lg:leading-[54px]"><span className="text-[#CB8461]">Subscribe</span> with us now</h2>
+                        <p className="text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] text-[#808080] font-Poppins">by subscribing now you will be able to access the material easily <br /> and cheaply, so you will be very efficient and benefit</p>
                     </article>
                     {/* card subscriber */}
-                    <div className="flex items-center justify-around hover:rounded-md mt-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-3  items-center justify-around hover:rounded-md mt-20">
                         <div>
                             <div className="hover:bg-[#245D51] p-7 w-[292px] h-[480px] hover:text-white group hover:rounded-lg">
                                 <article className="font-Poppins">

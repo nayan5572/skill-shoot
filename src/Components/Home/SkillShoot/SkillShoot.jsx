@@ -13,8 +13,8 @@ import user4 from '../../../assets/image/skill-user4.png';
 const SkillShoot = () => {
     return (
         <section className="mt-28">
-            <div className="max-w-screen-xl mx-auto flex justify-between mt-40">
-                <div className="relative w-[50%]">
+            <div className="max-w-screen-xl mx-auto flex justify-between mt-[-5rem] lg:mt-40">
+                <div className="relative w-[50%] hidden lg:block">
                     <div className="bg-[#245D51] w-[400px] h-[358px] absolute rounded-custom-13-25 mt-36"></div>
                     <div className="relative mt-[-110px]">
                         <img src={realman} alt="" />
@@ -51,21 +51,21 @@ const SkillShoot = () => {
                 </div>
 
                 {/* card section 2s */}
-                <div className='w-[50%]'>
+                <div className='lg:w-[50%]'>
                     <article>
-                        <h1 className='text-5xl font-bold font-Poppins leading-[72px]'>Let us <span className='text-[#245D51]'>Skill Shoot</span></h1>
-                        <p className='text-[22px] leading-[35px] font-Poppins text-[#808080] pt-[35px]'>We are a company engaged in education with the aim of improving the skills of many people and so that younger people can reach the career paths they want.
+                        <h1 className='text-[20px] lg:text-5xl font-bold font-Poppins leading-[72px]'>Let us <span className='text-[#245D51]'>Skill Shoot</span></h1>
+                        <p className='text-[12px] lg:text-[22px] leading-[30px] lg:leading-[35px] font-Poppins text-[#808080] lg:pt-[35px]'>We are a company engaged in education with the aim of improving the skills of many people and so that younger people can reach the career paths they want.
                         </p>
-                        <p className='text-[22px] leading-[35px] font-Poppins text-[#808080] pb-8 pt-[35px]'>we have been around since 2019 with currently 100+ updated materials and 15K members who have joined.</p>
+                        <p className='text-[12px] lg:text-[22px] leading-[30px] lg:leading-[35px] font-Poppins text-[#808080] pb-8 pt-[35px]'>we have been around since 2019 with currently 100+ updated materials and 15K members who have joined.</p>
                     </article>
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid grid-cols-2 gap-0 lg:gap-6'>
                         <div>
                             <div className='flex items-center'>
                                 <div>
                                     <img className='w-[60px] h-[60px] rounded-full p-2' src={user1} alt="" />
                                 </div>
                                 <div className=''>
-                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>15K People Join</h2>
+                                    <h2 className='font-Poppins text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] text-[#2C2C2C] font-semibold'>15K People Join</h2>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const SkillShoot = () => {
                                     <img className='w-[60px] h-[60px] rounded-full p-2' src={user2} alt="" />
                                 </div>
                                 <div className=''>
-                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>Trusted Mentor</h2>
+                                    <h2 className='font-Poppins text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] text-[#2C2C2C] font-semibold'>Trusted Mentor</h2>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const SkillShoot = () => {
                                     <img className='w-[60px] h-[60px] rounded-full p-2' src={user3} alt="" />
                                 </div>
                                 <div className=''>
-                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>30+ Free Videos</h2>
+                                    <h2 className='font-Poppins text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] text-[#2C2C2C] font-semibold'>30+ Free Videos</h2>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const SkillShoot = () => {
                                     <img className='w-[60px] h-[60px] rounded-full p-2' src={user4} alt="" />
                                 </div>
                                 <div className=''>
-                                    <h2 className='font-Poppins text-[16px] leading-[35px] text-[#2C2C2C] font-semibold'>100+ Premium Videos</h2>
+                                    <h2 className='font-Poppins text-[12px] lg:text-[16px] leading-[30px] lg:leading-[35px] text-[#2C2C2C] font-semibold'>100+ Premium Videos</h2>
                                 </div>
                             </div>
                         </div>
