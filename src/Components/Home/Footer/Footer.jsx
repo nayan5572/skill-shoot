@@ -21,19 +21,18 @@ const Footer = () => {
         <section className="bg-[#286054]">
             <div className="pt-[70px] max-w-screen-xl mx-auto">
                 <article className="text-center">
-                    <h2 className="text-4xl font-Poppins leading-[54px] text-white">Subscribe to get notified about update</h2>
-                    <p className="text-[16px] leading-[35px] font-Poppins text-white">By subscribing with your mail, you will accept our privacy policy</p>
+                    <h2 className="text-[18px] lg:text-4xl font-Poppins leading-[27px] lg:leading-[54px] text-white">Subscribe to get notified about update</h2>
+                    <p className="text-[12px] lg:text-[16px] leading-[35px] font-Poppins text-white">By subscribing with your mail, you will accept our privacy policy</p>
                 </article>
-                <div className="flex justify-between pt-[60px]">
+                <div className="lg:flex justify-between pt-[60px]">
                     <div>
                         <img src={foo1} alt="" />
                     </div>
                     <div className="">
                         <label className="form-control w-full max-w-xs">
-                            <div className="flex">
+                            <div className="lg:flex ml-[30px] lg:ml-0">
                                 <input type="text" placeholder="Enter your email" className="input input-bordered w-[300px] h-[60px] mr-3 bg-[#396D62]" />
-                                {/* <button className="w-40 h-[60px] bg-[#CC8663] text-[14px] font-medium py-[15px] px-[25px] rounded-lg">Subscribe us</button> */}
-                                <button className="btn w-40 h-[60px] text-white border-0 bg-[#CC8663]">Subscribe us</button>
+                                <button className="btn w-40 h-[60px] text-white border-0 bg-[#CC8663] ml-[60px] lg:ml-0">Subscribe us</button>
                             </div>
                         </label>
                     </div>
