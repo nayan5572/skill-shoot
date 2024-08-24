@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Caroussel from "../Carousel/Caroussel";
+import Footer from "../Footer/Footer";
 import Improve from "../Improve/Improve";
 import NewYear from "../NewYear/NewYear";
 import SkillShoot from "../SkillShoot/SkillShoot";
@@ -23,6 +24,7 @@ const Home = () => {
             <Improve></Improve>
             <Subscribe></Subscribe>
             <WhatDo></WhatDo>
+            <Footer></Footer>
         </div>
     );
 };

@@ -6,13 +6,13 @@ const CustomButtonGroupAsArrows = ({ next, previous }) => {
         <div className="custom-arrow-buttons flex justify-center mt-4">
             <button 
                 onClick={previous} 
-                className="bg-gray-200 p-2 rounded-full mr-2"
+                className="bg-gray-200 hover:bg-[#CB8461] hover:text-white p-2 rounded-full mr-2"
             >
                 <FaArrowLeft />
             </button>
             <button 
                 onClick={next} 
-                className="bg-[#CB8461] p-2 rounded-full"
+                className="hover:bg-[#CB8461] bg-gray-200 hover:text-white p-2 rounded-full"
             >
                 <FaArrowRight />
             </button>

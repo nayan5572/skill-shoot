@@ -9,7 +9,7 @@ import ratingman3 from '../../../assets/image/rating-man3.jpeg';
 
 const WhatDo = () => {
     return (
-        <section className="bg-[#F8F8F8] mt-11">
+        <section className="bg-[#F8F8F8] mt-11 pb-10">
             <div className='max-w-screen-xl mx-auto'>
                 <article className="text-center pt-11">
                     <h2 className="text-1xl lg:text-4xl font-semibold font-Poppins leading-[54px]">What do they <span className="text-[#CB8461]">say?</span></h2>
