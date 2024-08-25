@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import foo1 from "../../../assets/image/foo1.png";
 import foo2 from "../../../assets/image/foo2.png";
-import { TfiLayoutGrid2 } from "react-icons/tfi";
 
 
 
@@ -10,13 +9,6 @@ import { TfiLayoutGrid2 } from "react-icons/tfi";
 
 
 const Footer = () => {
-    const navOptions = <>
-        <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">Home</Link></li>
-        <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">Course</Link></li>
-        <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">Subscribe</Link></li>
-        <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">About</Link></li>
-        <li className="text-[rgba(255,255,255,0.60)] hover:text-white text-[18px]"><Link to="/">Testimonial</Link></li>
-    </>
     return (
         <section className="bg-[#286054]">
             <div className="pt-[70px] max-w-screen-xl mx-auto">
@@ -40,23 +32,19 @@ const Footer = () => {
                         <img src={foo2} alt="" />
                     </div>
                 </div>
-            </div>
-            <div className="navbar flex justify-center mt-16 pb-6">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <TfiLayoutGrid2 className="text-white w-[22px] h-[22px]" />
-                        </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            {navOptions}
+                <div className="lg:flex items-center justify-between text-center lg:text-start lg:pt-24">
+                    <div className="mb-4 lg:mb-0">
+                        <a className="btn btn-ghost text-xl text-white">Skill <span className="text-[#CB8461]">Shoot</span></a>
+                    </div>
+                    <div>
+                        <ul className="lg:flex items-center lg:space-x-5">
+                            <li className="text-[rgba(255,255,255,0.60)] hover:text-white leading-[30px] lg:leading-[0px] text-[12px] lg:text-[18px]"><Link to="/">Home</Link></li>
+                            <li className="text-[rgba(255,255,255,0.60)] hover:text-white leading-[30px] lg:leading-[0px] text-[12px] lg:text-[18px]"><Link to="/">Course</Link></li>
+                            <li className="text-[rgba(255,255,255,0.60)] hover:text-white leading-[30px] lg:leading-[0px] text-[12px] lg:text-[18px]"><Link to="/">Subscribe</Link></li>
+                            <li className="text-[rgba(255,255,255,0.60)] hover:text-white leading-[30px] lg:leading-[0px] text-[12px] lg:text-[18px]"><Link to="/">About</Link></li>
+                            <li className="text-[rgba(255,255,255,0.60)] hover:text-white leading-[30px] lg:leading-[0px] text-[12px] lg:text-[18px]"><Link to="/">Testimonial</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl text-white">Skill <span className="text-[#CB8461]">Shoot</span></a>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 bg-[#245D51]">
-                        {navOptions}
-                    </ul>
                 </div>
             </div>
         </section>
