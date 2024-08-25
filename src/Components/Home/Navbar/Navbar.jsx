@@ -17,17 +17,18 @@ const Navbar = () => {
         <div className="bg-[#245D51] font-Poppins">
             <section className="max-w-screen-xl mx-auto">
                 <div className="navbar">
-                    <div className="navbar-start">
+                    <div className="navbar-start flex flex-row-reverse lg:flex-row items-center">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                                <TfiLayoutGrid2 className="text-white w-[22px] h-[22px]" />
+                                <TfiLayoutGrid2 className="text-white w-[22px] h-[22px] mr-[-240px] lg:mr-0" />
                             </div>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <ul tabIndex={0} className="menu menu-sm bg-[#CB8461] dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
                                 {navOptions}
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl text-white">Skill <span className="text-[#CB8461]">Shoot</span></a>
+                        <a className="btn btn-ghost text-xl text-white ml-4 lg:ml-0">Skill <span className="text-[#CB8461]">Shoot</span></a>
                     </div>
+
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 bg-[#245D51]">
                             {navOptions}
